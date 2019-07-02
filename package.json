@@ -1,0 +1,24 @@
+{
+  "name": "mqtt_project",
+  "version": "1.0.0",
+  "description": "MQTT协议下的相互通信(课程作业)",
+  "main": "index.js",
+  "dependencies": {
+    "mosca": "^2.8.3",
+    "mqtt": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orenbek2019/MQTT_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orenbek2019/MQTT_Project/issues"
+  },
+  "homepage": "https://github.com/orenbek2019/MQTT_Project#readme"
+}
