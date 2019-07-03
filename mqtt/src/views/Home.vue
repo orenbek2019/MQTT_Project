@@ -1,18 +1,26 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Radio></Radio>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import Radio from '@/components/Radio.vue';
 
 export default {
   name: 'home',
   components: {
-    HelloWorld,
+    Radio,
   },
 };
 </script>
+
+<style>
+.home{
+  min-width: 500px;
+  width: 80%;
+  margin: 30px  auto;
+}
+</style>
+
