@@ -1,6 +1,10 @@
 require('../paho-mqtt.js');
 //创建客户端实例
-client = new Paho.MQTT.Client(location.hostname, Number(location.port), "clientId");
+const location ={
+  hostname : '127.0.0.1',
+  port: 8000
+}
+client = new Paho.MQTT.Client(location.hostname, Number(location.port), "client1");
 
 //设置回调处理程序
 client.onConnectionLost = onConnectionLost;
