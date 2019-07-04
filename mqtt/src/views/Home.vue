@@ -1,18 +1,18 @@
 <template>
   <div class="home">
-    <!-- <Radio></Radio> -->
     <!-- <Login></Login> -->
-    <Users></Users >
+    <Users class="users"></Users>
+    <Radio class="radio"></Radio>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Radio from "@/components/Radio.vue";
-import Login from "@/components/Login.vue";
-import Users from "@/components/Users.vue";
+import Radio from '@/components/Radio.vue';
+import Login from '@/components/Login.vue';
+import Users from '@/components/Users.vue';
 export default {
-  name: "home",
+  name: 'home',
   components: {
     Radio,
     Login,
@@ -21,10 +21,17 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .home {
   min-width: 500px;
+  height: 90%;
   width: 80%;
   margin: 30px auto;
+}
+.users{
+  display: inline-block;
+}
+.radio{
+  display: inline-block;
 }
 </style>
