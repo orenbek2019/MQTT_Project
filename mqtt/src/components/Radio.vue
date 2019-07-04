@@ -4,7 +4,7 @@
     <div class="post-img">
       <img src='@/img/post.jpg'/>
     </div>
-    <div class="song-name">songName</div>
+    <div class="song-name">歌曲名字</div>
     <div class="controller">
       <img src="@/img/previous.png"/>
       <img class="play" src="@/img/play.png"/>
@@ -15,8 +15,8 @@
 
 <script>
 export default {
-  data: function(){
-    return {playOrPause : '@/img/play.png'}
+  data: function() {
+    return { playOrPause : '@/img/play.png' }
   },
   computed:{
     // playOrPause: function(){
